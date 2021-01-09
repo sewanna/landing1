@@ -1,0 +1,61 @@
+.contact{
+
+    background-color: rgb(118, 143, 197);
+    padding-top:$landing-padding;
+    padding-bottom:0px;
+}
+
+.contact-subheading{
+    color: $color;
+    font-weight: lighter;
+}
+.contact-form{
+    list-style-type:none;
+}
+
+.contact-form li{
+    width: 50%;
+    float:left;
+    font-size:16px;
+    line-height:2em;
+    color: $color;
+}
+
+.contact-form li .fa{
+    width: 50%;
+    float:left;
+}
+
+.contact-form-icon{
+    display:inline-block;
+    width:30px;
+    text-align:center;
+
+}
+
+.contact-title{
+    color: $color;
+}
+
+.contact-input{
+    width:100%;
+    margin-bottom:40px;
+    color: black;
+    height:140px;
+    background-color: $color;
+}
+
+.contact-input:focus,
+input.contact-input:focus {
+    border: 1px solid rgb(39, 38, 38);
+    background-color:rgb(230, 230, 230);
+}
+
+form .contact-submit {
+    background-color: $color;
+    margin-bottom:0px
+}
+
+.formular-form{
+    margin-bottom:0px
+}

@@ -1,166 +1,26 @@
 
 @import "../vendor/skeleton-sass/skeleton";
+
+$landing-padding: 80px;
+$color: rgb(255, 255, 255);
+$shadow: 0px 0px 2px black;
+
 @import "parts/main";
 @import "parts/header";
 @import "parts/services";
 @import "parts/features";
 @import "parts/clients";
+@import "parts/team";
+@import "parts/contact";
+@import "parts/footer";
 
 
 
 
 
 
-/**
- * Clients...
- */
 
 
-/* team Bereich */
-.team-columns{
-    margin:0;
-    padding:0
-}
-.team{
-    padding-top: 40px;
-    padding-bottom: 30px;
-    background-color: rgb(29, 28, 28);
-    font-weight: lighter;
-    margin-bottom: 0;
-    text-align: center;
-    color:white;
-}
-.team-subheading {
-    margin:0;
-}
 
-.team-image{
-max-width:70%
-}
 
-.team-image-container{
-    text-align:center;
-    margin:0;
-    padding:0
-}
 
-.team-name {
-    font-weight:bold;
-    text-align:center;
-    display:inline;
-}
-
-.team-job {
-    text-align: center;
-}
-.social{
-    margin:0;
-    padding:0;}
-
-.social a{
-    color:rgb(255, 255, 255);
-    border:3px solid rgb(255, 255, 255);
-    border-radius: 50%;
-    display:inline-block;
-    width:35px;
-    height:35px
-
-}
-.social a:hover{color:rgb(95, 176, 243)}
-.social .fa{margin-top:8px}
-.team-slogan{
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-/* contact */
-
-.contact{
-
-    background-color: rgb(118, 143, 197);
-    padding-top:80px;
-    padding-bottom:0px;
-}
-
-.contact-subheading{
-    color:white;
-    font-weight: lighter;
-}
-.contact-form{
-    list-style-type:none;
-}
-
-.contact-form li{
-    width: 50%;
-    float:left;
-    font-size:16px;
-    line-height:2em;
-    color:white;
-   /* font-weight:lighter*/
-}
-
-.contact-form li .fa{
-    width: 50%;
-    float:left;
-}
-
-.contact-form-icon{
-    display:inline-block;
-    width:30px;
-    text-align:center;
-
-}
-
-.contact-title{
-    color:white
-}
-
-.contact-input{
-    width:100%;
-    margin-bottom:40px;
-    color: black;
-    height:140px;
-    background-color:rgb(255, 255,255);
-}
-
-.contact-input:focus,
-input.contact-input:focus {
-    border: 1px solid rgb(39, 38, 38);
-    background-color:rgb(230, 230, 230);
-}
-
-form .contact-submit {
-    background-color: rgb(255, 255, 255);
-    margin-bottom:0px
-}
-
-.formular-form{
-    margin-bottom:0px
-}
-
-.footer{
-    background-color: rgb(118, 143, 197);
-    text-align: center;
-}
-.footer p{
-    color:white;
-    font-weight: lighter;
-    
-    padding-top:0px;
-    font-size: 12px;
-}
-.footer-hr{
-    margin-top:0px;
-    margin-bottom:10px;
-}
-.footer a{
-    text-decoration:underline;
-    color:rgb(255, 255,255);
-    padding-left:30px
-}
-
-.footer a:hover{
-    text-decoration:none;
-    color:rgb(255, 255,255);
-}

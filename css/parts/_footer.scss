@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(118, 143, 197);
+    text-align: center;
+}
+.footer p{
+    color: $color;
+    font-weight: lighter;
+    
+    padding-top:0px;
+    font-size: 12px;
+}
+.footer-hr{
+    margin-top:0px;
+    margin-bottom:10px;
+}
+.footer a{
+    text-decoration:underline;
+    color: $color;
+    padding-left:30px
+}
+
+.footer a:hover{
+    text-decoration:none;
+    color: $color;
+}

@@ -1,0 +1,56 @@
+.team-columns{
+    margin:0;
+    padding:0
+}
+.team{
+    padding-top: 40px;
+    padding-bottom: $landing-padding -20px;
+    background-color: rgb(29, 28, 28);
+    font-weight: lighter;
+    margin-bottom: 0;
+    text-align: center;
+    color:$color;
+}
+.team-subheading {
+    margin:0;
+}
+
+.team-image{
+max-width:70%
+}
+
+.team-image-container{
+    text-align:center;
+    margin:0;
+    padding:0
+}
+
+.team-name {
+    font-weight:bold;
+    text-align:center;
+    display:inline;
+}
+
+.team-job {
+    text-align: center;
+}
+.social{
+    margin:0;
+    padding:0;}
+
+.social a{
+    color: $color;
+    border:3px solid $color;
+    border-radius: 50%;
+    display:inline-block;
+    width:35px;
+    height:35px
+
+}
+.social a:hover {color:rgb(95, 176, 243)}
+.social .fa {margin-top:8px}
+.team-slogan{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

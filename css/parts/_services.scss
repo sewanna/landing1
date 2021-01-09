@@ -1,6 +1,6 @@
 .service {
-    padding-top: 100px;
-    padding-bottom: 85px;
+    padding-top: $landing-padding;
+    padding-bottom: $landing-padding -10px;
 }
 .service-gray {
     background-color: rgb(245, 245, 245);
