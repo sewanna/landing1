@@ -11,8 +11,37 @@
 }
 .service-icon {
     color: rgb(224, 224, 224);
-    font-size: 1250%;
+    font-size: 750%;
     text-align: center;
     margin-top: -10%;
     margin-bottom: -20%;
+    display:none;
+
+    /* variable- breakpoints in _variables.scss i vendor/skeleton sass/base */
+/* Larger than mobile */
+
+    @media ($bp-larger-than-mobile) {
+        display:block;
+    } 
+
+/* Larger than phablet */
+@media ($bp-larger-than-phablet) {
+    display:block;
+}
+
+/* Larger than tablet */
+@media ($bp-larger-than-tablet) {
+    font-size:1000%
+}
+
+/* Larger than desktop */
+@media ($bp-larger-than-desktop ) {
+    font-size:1200%
+}
+
+/* Larger than desktophd */
+@media ($bp-larger-than-desktophd ) {
+    font-size:1200%
+}
+
 }

@@ -896,10 +896,47 @@ p {
 
 .service-icon {
   color: #e0e0e0;
-  font-size: 1250%;
+  font-size: 750%;
   text-align: center;
   margin-top: -10%;
   margin-bottom: -20%;
+  display: none;
+  /* variable- breakpoints in _variables.scss i vendor/skeleton sass/base */
+  /* Larger than mobile */
+  /* Larger than phablet */
+  /* Larger than tablet */
+  /* Larger than desktop */
+  /* Larger than desktophd */
+}
+
+@media (min-width: 400px) {
+  .service-icon {
+    display: block;
+  }
+}
+
+@media (min-width: 550px) {
+  .service-icon {
+    display: block;
+  }
+}
+
+@media (min-width: 750px) {
+  .service-icon {
+    font-size: 1000%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .service-icon {
+    font-size: 1200%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service-icon {
+    font-size: 1200%;
+  }
 }
 
 .features {
