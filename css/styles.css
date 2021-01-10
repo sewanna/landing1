@@ -1007,15 +1007,25 @@ p {
 .client-quote {
   border: 2px solid #ebebeb;
   background-color: white;
-  padding-left: 75px;
-  padding-right: 75px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   border-radius: 3px;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: lighter;
   font-style: italic;
   position: relative;
+}
+
+@media (min-width: 550px) {
+  .client-quote {
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 150%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .client-quote p {
@@ -1028,52 +1038,72 @@ p {
   color: #7793c5;
 }
 
-.client-quote::before, .client-quote::after {
-  content: "";
-  position: absolute;
-  top: 46%;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 2px solid transparent;
+@media (min-width: 550px) {
+  .client-quote::before, .client-quote::after {
+    content: "";
+    position: absolute;
+    top: 46%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 2px solid transparent;
+  }
+  .client-quote::after {
+    left: -12px;
+    padding-top: -13px;
+    border-right: 10px solid white;
+  }
+  .client-quote::before {
+    left: -14px;
+    padding-top: -14px;
+    border-right: 10px solid #ebebeb;
+  }
+  .client-quote-left::before, .client-quote-left::after {
+    content: "";
+    position: absolute;
+    top: 46%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 2px solid transparent;
+  }
+  .client-quote-left::after {
+    right: -12px;
+    left: auto;
+    padding-top: -13px;
+    border-left: 10px solid white;
+  }
+  .client-quote-left::before {
+    right: -14px;
+    left: auto;
+    padding-top: -14px;
+    border-left: 10px solid #ebebeb;
+  }
 }
 
-.client-quote::after {
-  left: -12px;
-  padding-top: -13px;
-  border-right: 10px solid white;
+.client-image {
+  display: none;
 }
 
-.client-quote::before {
-  left: -14px;
-  padding-top: -14px;
-  border-right: 10px solid #ebebeb;
+@media (min-width: 550px) {
+  .client-image {
+    display: block;
+    margin-top: 150px;
+  }
 }
 
-.client-quote-left::before, .client-quote-left::after {
-  content: "";
-  position: absolute;
-  top: 46%;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 2px solid transparent;
+.client-mini-image {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
 }
 
-.client-quote-left::after {
-  right: -12px;
-  left: auto;
-  padding-top: -13px;
-  border-left: 10px solid white;
-}
-
-.client-quote-left::before {
-  right: -14px;
-  left: auto;
-  padding-top: -14px;
-  border-left: 10px solid #ebebeb;
+@media (min-width: 550px) {
+  .client-mini-image {
+    display: none;
+  }
 }
 
 .team-columns {
