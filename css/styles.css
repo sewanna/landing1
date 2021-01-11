@@ -799,7 +799,13 @@ p {
 }
 
 .row {
-  margin: 70px 0;
+  margin: 30px 0;
+}
+
+@media (min-width: 1000px) {
+  .row {
+    margin: 70px 0;
+  }
 }
 
 .circle-image {
@@ -1140,7 +1146,22 @@ p {
 }
 
 .team-image {
-  max-width: 70%;
+  max-width: 20%;
+  margin-top: 25px;
+}
+
+@media (min-width: 550px) {
+  .team-image {
+    max-width: 50%;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 750px) {
+  .team-image {
+    max-width: 50%;
+    margin-top: 5px;
+  }
 }
 
 .team-image-container {
@@ -1203,11 +1224,24 @@ p {
 }
 
 .contact-form li {
-  width: 50%;
-  float: left;
+  width: 100%;
   font-size: 16px;
   line-height: 2em;
   color: white;
+}
+
+@media (min-width: 750px) {
+  .contact-form li {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact-form li {
+    width: 50%;
+    float: left;
+  }
 }
 
 .contact-form li .fa {

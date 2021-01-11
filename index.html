@@ -14,6 +14,8 @@
           crossorigin="anonymous" />
     </head>
     <body>
+        <div class="side-menu">menu </div>
+        <button id="side-menu-trigger">Button</button>
         <header class="header">
             <div class="container">
                 <div class="header-brand-wrapper">
@@ -297,5 +299,21 @@
         <div class="footer">
             <div class="container"><hr class="footer-hr"/><p>Copyright <a href="#">    Nach oben</a></p> 
         </div>
+        <script type="text/javascript" src="./vendor/jquery/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="./vendor/jquery/jquery.jpanelmenu.js"></script>
+        <script type="text/javascript">
+        jQuery(document).ready(function($){
+
+        var jPM = $.jPanelMenu({
+    menu: '.side-menu',
+    trigger: '#side-menu-trigger'
+
+        });
+
+        jPM.on();
+    });
+
+        
+        </script>
     </body>
 </html>

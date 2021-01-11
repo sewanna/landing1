@@ -16,7 +16,19 @@
 }
 
 .team-image{
-max-width:70%
+max-width:20%;
+margin-top:25px;
+
+@media ($bp-larger-than-phablet){
+    max-width:50%;
+    margin-top:35px;
+
+}
+@media ($bp-larger-than-tablet){
+    max-width:50%;
+    margin-top:5px;
+
+}
 }
 
 .team-image-container{

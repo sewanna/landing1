@@ -14,11 +14,21 @@
 }
 
 .contact-form li{
-    width: 50%;
-    float:left;
+    width: 100%;
     font-size:16px;
     line-height:2em;
     color: $color;
+
+    @media ($bp-larger-than-tablet) {
+        width: 100%;
+        float:none;
+    
+    }
+   
+    @media ($bp-larger-than-desktop) {
+        width: 50%;
+        float:left;
+    }
 }
 
 .contact-form li .fa{

@@ -5,7 +5,14 @@ p {
     color: rgb(117, 117, 117);
 }
 
-.row{margin:70px 0}
+.row{margin:30px 0;
+
+@media ($bp-larger-than-desktop){
+    margin:70px 0;
+
+}
+
+}
 
 .circle-image {
     width: 100%;
