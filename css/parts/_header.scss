@@ -10,7 +10,7 @@
 
     float: right;
     margin-top: 50px;
-    display:none;  /* standart menu for mobile hidden*/
+    display:block;  /* standart menu for mobile hidden*/
 
     @media($bp-larger-than-tablet) {
         display:block;

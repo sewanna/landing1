@@ -1,9 +1,30 @@
 .side-menu{
-background-color:rgb(202, 199, 199);
-padding-left: 5px;
+background-color:rgb(240, 240, 240);
+padding-left: 15px;
 
+
+
+ h3{
+    color:black;
+}
 }
 
-.side-menu h3{
-    color:black;
+.side-menu-navigation{
+list-style-type: none;
+border-bottom: 1px solid rgb(220, 220, 220);
+
+li {
+    border-top: 1px solid rgb(220, 220, 220);
+    
+}
+a { 
+    
+    display:block; /* clickable area mobile, powierzchnia klikalna menu mobilne */
+    text-decoration:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    color: rgb(40,40,40);
+
+}
 }

@@ -1,9 +1,28 @@
 .side-menu {
-  background-color: #cac7c7;
-  padding-left: 5px;
+  background-color: #f0f0f0;
+  padding-left: 15px;
 }
 
 .side-menu h3 {
   color: black;
+}
+
+.side-menu-navigation {
+  list-style-type: none;
+  border-bottom: 1px solid gainsboro;
+}
+
+.side-menu-navigation li {
+  border-top: 1px solid gainsboro;
+}
+
+.side-menu-navigation a {
+  display: block;
+  /* clickable area mobile, powierzchnia klikalna menu mobilne */
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  color: #282828;
 }
 /*# sourceMappingURL=sidenav.css.map */
