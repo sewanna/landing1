@@ -824,7 +824,7 @@ p {
 .header-navbar-links {
   float: right;
   margin-top: 50px;
-  display: none;
+  display: block;
   /* standart menu for mobile hidden*/
 }
 
@@ -1313,6 +1313,17 @@ form .contact-submit {
   margin-bottom: 0px;
 }
 
+.contact-label {
+  color: white;
+  display: none;
+  /*for standard browser, dla standardowych przegladarek*/
+}
+
+.no-placeholder .contact-label {
+  display: block;
+  /* for IE 9 and older, dla IE starszego niz 9*/
+}
+
 .footer {
   background-color: #768fc5;
   text-align: center;
@@ -1361,7 +1372,7 @@ form .contact-submit {
 
 .side-menu-navigation a {
   display: block;
-  /* clickable area mobile */
+  /* clickable area mobile, powierzchnia klikalna menu mobilne */
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;

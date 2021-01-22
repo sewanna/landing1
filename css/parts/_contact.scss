@@ -69,3 +69,12 @@ form .contact-submit {
 .formular-form{
     margin-bottom:0px
 }
+
+.contact-label{
+color:$color;
+display: none; /*for standard browser, dla standardowych przegladarek*/
+}
+
+.no-placeholder .contact-label{
+    display:block; /* for IE 9 and older, dla IE starszego niz 9*/
+}

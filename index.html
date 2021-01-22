@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Eine erste Seite</title>
 
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--<link rel="stylesheet" type="text/css" href="./vendor/skeleton/normalize.css" />
         <link rel="stylesheet" type="text/css" href="./vendor/skeleton/skeleton.css" />--->
         <link rel="stylesheet" type="text/css" href="./css/styles.css" />
@@ -296,9 +296,14 @@
                     </div>
                     <div class="columns six">
                         <form action="index.html" class="formular-form" method="GET" >
-                                <input class="contact-input" type="text" placeholder="Your Name*" required="required"/>
-                                <input class="contact-input" type="email" placeholder="Your E-mail*" required="required" />
-                                <textarea class="contact-input" placeholder="Text"></textarea>
+                                <label for="contact-name" class="contact-label">Your Name*</label>
+                                <input id="contact-name" class="contact-input" type="text" placeholder="Your Name*" required="required"/>
+                                
+                                <label for="contact-email" class="contact-label">Your Email*</label>
+                                <input id="contact-email" class="contact-input" type="email" placeholder="Your E-mail*" required="required" />
+                                
+                                <label for="contact-message" class="contact-label">Your Message*</label>
+                                <textarea  id="contact-message" class="contact-input" placeholder="Text"></textarea>
                                 <input class="contact-submit"  type="submit" value="senden">
                             
                         </form>
