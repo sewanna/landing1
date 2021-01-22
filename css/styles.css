@@ -824,7 +824,7 @@ p {
 .header-navbar-links {
   float: right;
   margin-top: 50px;
-  display: block;
+  display: none;
   /* standart menu for mobile hidden*/
 }
 
