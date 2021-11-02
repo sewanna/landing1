@@ -13,7 +13,6 @@
                             <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-
                          </div>
                     </div>
                     <div class="four columns team-columns">
@@ -26,7 +25,6 @@
                             <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-
                          </div>
                     </div>
                     <div class="four columns team-columns">
@@ -38,7 +36,6 @@
                         <div class="social">
                             <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
                          </div>
                     </div>
                   </div>  

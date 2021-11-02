@@ -16,7 +16,6 @@
                         
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="nine columns">                        
                         <div class="client-quote client-quote-left">
@@ -25,12 +24,9 @@
                             <img src="img/client-2.jpg" class="client-mini-image circle-image" alt="Our first happy client" />
                             - Jamie Mustermann, Gaggenau</p> <br>                           
                         </div>  
-                    </div>
-
                     <div class="three columns">
                         <img src="img/client-2.jpg" class=" client-image circle-image" alt="Our second happy client" />
                     </div>
                 </div>
             </div>
         </div>
-        

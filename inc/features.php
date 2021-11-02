@@ -1,5 +1,3 @@
-
-
 <div class="features" id="features">
     <div class="container">
         <div class="row">
@@ -52,7 +50,6 @@
                             Ehrlichkeit und Loyalität sind unsere steten Begleiter. 
                             Denn wir glauben an langlebige und fruchtbare Partnerschaften, deren Erfolg sich
                              noch Jahre später abzeichnet.
-
                         </p>
                     </div>
                 </div>
@@ -84,4 +81,3 @@
         </div>
     </div>
 </div>
-

@@ -46,3 +46,6 @@
                 </div>
             </div>
         </div>
+© 2021 GitHub, Inc.
+Terms
+Privacy
