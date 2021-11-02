@@ -1,7 +1,7 @@
 <?php
 
 mail(
-    "meineprivateemail@gibtesnicht.de", 
+    "seweryniakanna1@gmail.com", 
     "Es gibt eine neue Kontaktanfrage", 
     "Email: {$_POST['email']}, Name: {$_POST['name']}, Nachricht: {$_POST['message']}");
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--dla przypomnienia- oznacza,ze uzywamy html5 -->
 <html>
     <head>
         <meta charset="utf-8" />

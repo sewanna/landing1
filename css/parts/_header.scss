@@ -3,7 +3,7 @@
     height: 620px;
     background-image: url("../img/header-background-edited.jpg");
     background-size: cover;
-    background-position: 50% 62%;
+    background-position: 50% 62%; //skalowanie bg cover z pozycji horyz-wertykal
 }
 
 .header-navbar-links {
@@ -55,15 +55,15 @@
     padding-top: $landing-padding;
     color: $color;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: $shadow; 
 }
 .slogan-top {
     font-size: 170%;
-    font-weight: lighter;
+    font-weight: lighter;//tekst jest bardziej czytelny
 } 
 .slogan-bottom {
     font-size: 250%;
-    font-weight: bold;
+    font-weight: bold; //text jest bardziej czytelny
 }
 .solgan-button {
     margin-top: 50px;
@@ -85,7 +85,7 @@
     padding:0 20px;
 
     @media($bp-larger-than-tablet){
-        display:none; /*hamburger menu for desktop hidden*/
+        display:none; /*hidden hamburger menu dla desktop */
     }
 }
 .fa-bars{
