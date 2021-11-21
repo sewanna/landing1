@@ -4,9 +4,11 @@
                     <div class="eight columns">
                         <h1 class="service-title">Wohnung-<strong>Vermietung</strong></h1>
                         <p>
+                            
                             Wir suchen gemeinsam mit Ihnen den besten Weg für eine erfolgreiche Vermietung Ihrer Immobilie.
                              Machen Sie sich unsere langjährige Erfahrung und unsere Marktkenntnis zunutze –
                              wir freuen uns auf Ihren Anruf und auf eine vertrauensvolle Zusammenarbeit.
+                    
                         </p>
                     </div>
                     <div class="four columns">

@@ -3,3 +3,12 @@ git add .
 git add -A
 git commit -m "nowa wersja"
 git push
+
+-----------tworzenie folderu na VSC ------------------
+echo "# formularz-rezerwacja" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sewanna/formularz-rezerwacja.git
+git push -u origin main
